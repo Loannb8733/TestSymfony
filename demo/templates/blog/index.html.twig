@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello BlogController!{% endblock %}
+
+{% block body %}
+<article>
+    <h2>Titre de l'article</h2>
+    <div class="metadata">ecrit aujourd'hui à 1h30</div>
+    <div class="contains">
+        <img src="http://placehold.it/350x150" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi atque voluptates possimus in nobis delectus?
+        </p>
+        <p>Fugit, excepturi officia perferendis quo facilis qui hic, voluptates vitae accusamus aspernatur sint
+            provident suscipit!</p>
+        <a href="{{ path('blog_show') }}" class="btn btn-primary">lire la suite</a>
+    </div>
+</article>
+<article>
+    <h2>Titre de l'article</h2>
+    <div class="metadata">ecrit aujourd'hui à 1h30</div>
+    <div class="contains">
+        <img src="http://placehold.it/350x150" alt="">
+        <p>Similique commodi ducimus officia eius rerum, laudantium est cumque dolore fuga esse eveniet, molestiae quas.
+        </p>
+        <p>Facere nihil blanditiis explicabo sit animi impedit, aliquam similique aspernatur voluptatem, ipsum sed,
+            omnis corporis!</p>
+        <a href="{{ path('blog_show') }}" class="btn btn-primary">lire la suite</a>
+    </div>
+</article>
+<article>
+    <h2>Titre de l'article</h2>
+    <div class="metadata">ecrit aujourd'hui à 1h30</div>
+    <div class="contains">
+        <img src="http://placehold.it/350x150" alt="">
+        <p>Perspiciatis consequuntur officiis molestias reiciendis labore voluptate, enim veritatis, blanditiis
+            adipisci, doloremque doloribus! Nesciunt, tenetur.</p>
+        <p>Inventore nesciunt blanditiis enim vero facilis illum nisi. Ducimus, veniam modi? Veritatis ratione cum
+            itaque?</p>
+        <a href="{{ path('blog_show') }}" class="btn btn-primary">lire la suite</a>
+    </div>
+</article>
+
+{% endblock %}
